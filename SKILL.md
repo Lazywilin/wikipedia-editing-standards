@@ -9,7 +9,27 @@ A platform-neutral digest of English Wikipedia's rules on what may and may not b
 
 **Scope and honesty note.** Wikipedia has several hundred policy and guideline pages plus thousands of essays, and they change. This file is a structured digest of the core rules, not a verbatim copy, and cannot claim to contain every sentence of every page. When a question turns on exact wording, a recent change, a contentious topic, or another language edition, tell the user to check the live page (shortcuts such as `WP:NPOV` can be typed into Wikipedia's search box). Never invent a rule, a shortcut, or a quotation.
 
-Derived from English Wikipedia project pages, which are available under CC BY-SA 4.0.
+Derived from English Wikipedia project pages, which are available under CC BY-SA 4.0. **The detailed rules are those of English Wikipedia. See section 0 before applying them to any other edition or wiki.**
+
+---
+
+## 0. Step zero: identify the edition (do this first)
+
+Every language edition of Wikipedia is a separate community with its own policies, notability thresholds, style guide, deletion process and AI rules. The detailed rules in this file are **English Wikipedia's**.
+
+Before answering any rule-specific question, establish the target:
+
+1. **If the user has not said which edition or wiki they mean, ask once, briefly** (for example: "Is this for English Wikipedia, another language edition, or a different wiki?"). If the question is purely general (for example, "what does neutral point of view mean?"), answer first with the shared principle and then ask.
+2. **English Wikipedia:** apply this whole file.
+3. **Another Wikipedia language edition:** apply only the **shared principles** below, and say clearly that everything else must be checked on that edition's own policy pages.
+   - *Usually shared (verify each):* neutrality, verifiability, no original research, respect for living people, copyright, civility, no promotion or hoaxes, good sourcing habits.
+   - *Often different (never assume English rules apply):* AI and LLM rules (they range from outright bans to essays to nothing), notability or "relevance" thresholds, perennial-source lists, BLP strictness, deletion codes and timelines (G15, A7, PROD, AfD are English Wikipedia processes), style and naming conventions, date and number formats, quotation marks, English-variety rules (ENGVAR, MOS:TIES), contentious-topic restrictions, and administrator or review structures.
+   - Do not translate English shortcuts (WP:NPOV and so on) into claims about another edition. Say "English Wikipedia's rule is X; your edition may differ."
+   - Reply in the user's language. Keep rule names and shortcuts in their original form and explain them.
+   - If you do not know the other edition's rules, say so and point the user to that edition's help and policy pages (and to Meta-Wiki's overview of AI policies by project) instead of guessing.
+4. **Non-Wikipedia wikis** (Fandom, company wikis, personal MediaWiki, Wikimedia sister projects such as Wikivoyage or Wikisource): the principles of sourcing, neutrality and clarity are useful, but each has its own scope and rules (for example, Wikivoyage is a travel guide and Wikisource hosts primary texts). Ask for the house rules and treat them as authoritative.
+
+If the edition is unknown and cannot be established, state your assumption explicitly ("Assuming English Wikipedia...") at the top of the answer.
 
 ---
 
@@ -123,7 +143,7 @@ Applies to **all** content about living (or recently deceased, roughly within si
 - **Public domain material** may be used if truly in the public domain, with attribution as appropriate (check the country-specific rules; "free on the internet" does not mean free to reuse).
 - **Compatible licenses:** content must be compatible with CC BY-SA 4.0. Reuse of Wikipedia text from another Wikipedia article requires attribution in the edit summary (WP:CWW); translations need attribution to the source article.
 - **Plagiarism** is unacceptable even for public-domain text if not attributed; use in-text attribution and citation.
-- **Images (WP:IUP):** prefer freely licensed or public-domain images, ideally uploaded to Wikimedia Commons. **Non-free content (WP:NFCC)** is allowed only if all ten criteria are met, in short: no free equivalent exists or could be created; minimal use; does not harm the owner's commercial opportunity; previously published; meets content standards; contextual significance (adds significantly to readers' understanding); used in at least one article; with a source and a fair-use rationale for each use; low resolution; and not decorative.
+- **Images (WP:IUP):** prefer freely licensed or public-domain images, ideally uploaded to Wikimedia Commons. **Non-free content (WP:NFCC)** is allowed only if all ten criteria are met, in short: (1) no free equivalent exists or could reasonably be created; (2) it respects the owner's commercial opportunities; (3) minimal use, both in number of items and in extent (for example, low resolution and short excerpts); (4) previously published outside Wikipedia; (5) meets general content standards; (6) meets any media-specific policy; (7) used in at least one article; (8) contextual significance, meaning it significantly increases readers' understanding and its omission would be detrimental; (9) appears only in the article namespace (not user pages, drafts or templates); and (10) has a proper description page with source, copyright tag, and a specific rationale for each use. Decorative use never qualifies.
 - **AI-generated images** are subject to Wikipedia's image use policy and generally should not be used to depict real people or events as if factual.
 - **Never** assume a creator's permission, an email, or a "free to share" claim is sufficient; use the Wikimedia permission process (VRT) where needed.
 
@@ -349,7 +369,7 @@ Sentence case; unique; no links in headings, no starting with "the"; avoid singl
 Type these shortcuts in Wikipedia's search box (English Wikipedia):
 `WP:5P` `WP:POLICY` `WP:LPG` (list of policies and guidelines) `WP:V` `WP:NOR` `WP:NPOV` `WP:BLP` `WP:N` `WP:RS` `WP:RSP` `WP:NOT` `WP:COPYVIO` `WP:CITE` `WP:MOS` `WP:AT` `WP:COI` `WP:PAID` `WP:CIVIL` `WP:CONSENSUS` `WP:DR` `WP:EW` `WP:CSD` `WP:AFD` `WP:AFC` `WP:NEWLLM` `WP:CT`
 
-Each language edition (German, French, Spanish, Japanese, etc.) has its own rules; do not assume English rules apply.
+Each language edition (German, French, Spanish, Japanese, Bengali, etc.) has its own rules; do not assume English rules apply (see section 0). For a cross-project overview of AI rules, search Meta-Wiki for "Artificial intelligence/Policies by project".
 
 ---
 
@@ -394,11 +414,12 @@ End with: overall verdict (ready / needs work / likely to be deleted), the top t
 
 ## 19. Behavior rules for the assistant
 
-1. Be accurate before being comprehensive: if unsure, say so and point to the live page.
-2. Cite rule shortcuts (for example `WP:SYNTH`) so the user can verify.
-3. Distinguish **policy** (broadly accepted, normally followed), **guideline** (best practice, exceptions allowed), and **essay** (opinion, no binding force); do not present essays as rules.
-4. Do not give legal advice on defamation or copyright; recommend professional counsel or the Foundation's legal contacts for serious issues.
-5. Never help evade rules: no sockpuppetry, undisclosed paid editing, canvassing, hiding COI, laundering AI text, or faking sources.
-6. Never write promotional or reputation-management copy intended for Wikipedia mainspace.
-7. Keep tone encouraging toward newcomers (WP:BITE) while being honest about problems.
-8. Keep this skill's own limits in view: it is a digest as of late 2026 and Wikipedia's rules evolve.
+1. **Establish the target edition or wiki first (section 0).** Never present English Wikipedia's rules as universal.
+2. Be accurate before being comprehensive: if unsure, say so and point to the live page.
+3. Cite rule shortcuts (for example `WP:SYNTH`) so the user can verify.
+4. Distinguish **policy** (broadly accepted, normally followed), **guideline** (best practice, exceptions allowed), and **essay** (opinion, no binding force); do not present essays as rules.
+5. Do not give legal advice on defamation or copyright; recommend professional counsel or the Foundation's legal contacts for serious issues.
+6. Never help evade rules: no sockpuppetry, undisclosed paid editing, canvassing, hiding COI, laundering AI text, or faking sources.
+7. Never write promotional or reputation-management copy intended for Wikipedia mainspace.
+8. Keep tone encouraging toward newcomers (WP:BITE) while being honest about problems.
+9. Keep this skill's own limits in view: it is a digest as of late 2026 and Wikipedia's rules evolve.
