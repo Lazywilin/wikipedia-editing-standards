@@ -1,6 +1,12 @@
 ---
 name: wikipedia-editing-standards
 description: Use whenever the user asks how to write, edit, review, source, or improve a Wikipedia (or MediaWiki-style) article; asks whether something is allowed on Wikipedia; wants a draft checked against Wikipedia policies (neutrality, verifiability, no original research, notability, biographies of living people, copyright, style, citations, conduct); asks about deletion, disputes, conflicts of interest, paid editing, or AI use on Wikipedia. Also use for building any wiki that should follow encyclopedic standards. Trigger even if the user only says "wiki", "wiki article", "will this get deleted", or "is this notable".
+license: MIT
+compatibility: Any chat model; plain Markdown, no tools required
+metadata:
+  version: "1.2.0"
+  last_updated: "2026-11-11"
+  scope: "English Wikipedia rules; other editions and wikis need an edition check"
 ---
 
 # Wikipedia Editing Standards (Universal Skill)
@@ -9,7 +15,7 @@ A platform-neutral digest of English Wikipedia's rules on what may and may not b
 
 **Scope and honesty note.** Wikipedia has several hundred policy and guideline pages plus thousands of essays, and they change. This file is a structured digest of the core rules, not a verbatim copy, and cannot claim to contain every sentence of every page. When a question turns on exact wording, a recent change, a contentious topic, or another language edition, tell the user to check the live page (shortcuts such as `WP:NPOV` can be typed into Wikipedia's search box). Never invent a rule, a shortcut, or a quotation.
 
-Derived from English Wikipedia project pages, which are available under CC BY-SA 4.0. **The detailed rules are those of English Wikipedia. See section 0 before applying them to any other edition or wiki.**
+Derived from English Wikipedia project pages, which are available under CC BY-SA 4.0. The audit workflow, notability pitfalls and category tests in this version were also informed by the MIT-licensed project fuzheado/Wikipedia-AI-Skills on GitHub (a much larger, tool-oriented collection); the wording here is original. **The detailed rules are those of English Wikipedia. See section 0 before applying them to any other edition or wiki.**
 
 ---
 
@@ -166,6 +172,36 @@ A topic is generally presumed notable if it has received **significant coverage 
 - **Notability is not a content limit** (WP:NNC): the rules about what to include in an article are separate (WP:DUE).
 - Alternatives when a topic is not notable: **merge** into a broader article, **redirect**, mention inside another article (WP:NOPAGE), or draft more sources first. Use **Articles for Creation (WP:AFC)** if you are new, have a conflict of interest, or are unsure.
 
+### 6.1 How to assess notability (work in this order)
+
+1. **Pin down the subject and its type** (person, company, event, creative work, place...). Different types have different guidelines.
+2. **List the candidate sources and test each** for: significant coverage, reliability, independence, and being secondary. Name the strongest three.
+3. **Collapse duplicates before counting.** Wire-service copy, rewrites by the same author, and stories derived from one press release count as one source, or zero if they are only a press release.
+4. **If the general guideline is met, notability is presumed.** If not, check the matching subject-specific guideline, then check exclusions that can still defeat a presumption (WP:NOT, WP:BLP1E, WP:NOTNEWS, the stricter organization tests).
+5. **Give a verdict:** likely notable, borderline, or unlikely, with the best sources named and the gaps stated. If borderline, say what kind of coverage would change the answer, and suggest drafting, Articles for Creation, or merging into a broader article.
+
+### 6.2 Source-counting traps
+
+- **Churnalism:** many outlets, one press release. Counts as one source at most.
+- **Routine coverage:** announcements, product launches, funding rounds, scheduled events, routine results. Expected events do not show significance.
+- **Databases and profiles** (IMDb, Discogs, MusicBrainz, WorldCat, LinkedIn, Crunchbase, directories): they show existence, not attention from independent sources.
+- **Primary documents** (filings, annual reports, CVs, court records, company websites): useful to verify plain facts, but they do not establish notability.
+- **Interviews:** the subject's own words are not independent. Independent analysis around the interview may be.
+- **Counting articles or search hits:** quality beats quantity; ten in-depth independent features outweigh a hundred rewrites (WP:GOOGLEHITS).
+- **Local-only coverage** for a topic that claims wider significance; **passing mentions** in books or articles about something else.
+
+### 6.3 Weak versus strong arguments (useful when helping with deletion discussions)
+
+Weak: "related to someone notable" (WP:NOTINHERITED); "famous" or "important"; "other similar articles exist" (WP:OTHERSTUFFEXISTS); "has an IMDb or LinkedIn page"; "lots of search hits"; "popular online"; "well written"; "I like it"; "it has an article in another language edition"; "sources exist" without naming any (see WP:NEXIST); and, for deletion, "poorly written" (a fixable problem, not a notability one). See WP:ATA for the community's list of arguments to avoid.
+
+Strong: name specific independent, reliable sources with significant coverage; show a specific criterion of the relevant subject-specific guideline; or show concretely why the available sources fail independence or significance.
+
+Also remember: notability is about the subject, not the article's quality (WP:CONTN); it is not temporary once established (WP:NTEMP); and it rests on sources that exist, not only those already cited (WP:NEXIST).
+
+### 6.4 Do not recite subject-specific criteria from memory
+
+The subject-specific guidelines (sports, music, academics, geography, numbers and others) are revised often, and popular summaries get details wrong. For example, sports notability was substantially tightened in 2022 so that merely having played or competed no longer settles it on its own (as I understand it; check WP:NSPORT). When a verdict depends on a specific criterion, paraphrase the principle, say which guideline applies, and tell the user to read its current text.
+
 ---
 
 ## 7. Reliable sources (WP:RS) and how to judge them
@@ -272,7 +308,11 @@ Sentence case; unique; no links in headings, no starting with "the"; avoid singl
 - **Accessibility (MOS:ACCESS):** do not rely on color alone; use proper heading levels; provide alt text; avoid tiny text; use proper list markup; mind screen-reader behavior.
 
 ### 9.9 Categories, redirects, disambiguation
-- **Categories (WP:CAT):** defining characteristics only; sourced in the article; no redlinked categories; place in the most specific category, avoid category clutter; BLP category restrictions apply.
+- **Categories (WP:CAT):** apply three tests to every category before adding it.
+  1. **Verifiable (WP:CATV):** the article itself must show, with sourcing, why it belongs.
+  2. **Neutral (WP:CATPOV):** categories carry no annotations or citations, so they must be uncontroversial. Contested labels (for example "criminals" for someone not convicted, or subjective ones like "controversial") belong in a referenced list article, not a category.
+  3. **Defining (WP:CATDEF):** reliable sources commonly and consistently use the characteristic to describe the topic (nationality, occupation, genre, location), as opposed to trivial ones (WP:TRIVIALCAT).
+  Also: use the most specific category available instead of its parents; keep the number reasonable (avoid category clutter); do not create categories that are subjective, arbitrary, or overly narrow (overcategorization); topic categories are singular and set categories plural; BLP category restrictions apply (WP:BLPCAT).
 - **Redirects (WP:REDIRECT):** use for alternative names and plausible search terms; avoid redirects that are confusing, promotional, or cross-namespace without need.
 - **Disambiguation (WP:DAB):** for terms with several possible topics; keep entries short with one link each; use hatnotes for two-topic cases.
 
@@ -294,6 +334,13 @@ Sentence case; unique; no links in headings, no starting with "the"; avoid singl
 - **Never cite a source you have not read**, and never attribute a claim to a source that does not state it (WP:SOURCETEXT, the "source-text integrity" principle).
 - **Foreign-language sources** are fine; give the original title and, where helpful, a translation, and use `language=` parameters.
 - **Paywalled** sources are acceptable (WP:PAYWALL); mark them and, if useful, quote a brief supporting passage.
+
+- **Check which sentences a reference really supports.** A single footnote at the end of a paragraph does not automatically support every sentence before it; flag "citation dumping" (one reference covering many distinct claims).
+- **Reuse a named reference instead of duplicating it**, and use meaningful names (not purely numeric).
+- **Do not remove existing archive links** when editing a citation; add archives rather than replace them.
+- **Use the right field for the right thing:** author or `last`/`first` for people, `work` or `website` for the publication, `publisher` for the company behind it, `journal` for journals.
+- **Flag gaps honestly** with `{{citation needed}}`, `{{clarify}}` or `{{when}}` rather than quietly leaving unsupported text or inventing a source.
+- **Never guess a URL** or fill in a DOI, ISBN, page number, date, or quotation you have not seen.
 
 ---
 
@@ -319,7 +366,7 @@ Sentence case; unique; no links in headings, no starting with "the"; avoid singl
 ## 12. Consensus, discussion, and dispute resolution
 
 - **Consensus (WP:CONSENSUS)** is decided by the quality of arguments grounded in policy, not by headcount or voting; it can change.
-- **Talk pages (WP:TPG):** discuss content, not contributors; stay on topic; start new topics at the bottom; sign with four tildes (`~~~~`); indent replies with colons; do not edit others' comments except for narrow exceptions; do not use talk pages as forums (WP:NOTFORUM) for general discussion of the subject.
+- **Talk pages (WP:TPG):** discuss content, not contributors; stay on topic; start new topics at the bottom; sign with four tildes (`~~~~`); indent replies with colons; do not edit or delete others' comments except for narrow exceptions (retract your own words with strikethrough instead of deleting them, and mark finished threads with templates such as {{done}} or {{resolved}}); do not use talk pages as forums (WP:NOTFORUM) for general discussion of the subject. Discuss article content on the article's talk page, not on a user's talk page; use user talk pages for personal messages.
 - **Civility (WP:CIV), no personal attacks (WP:NPA), assume good faith (WP:AGF), do not bite newcomers (WP:BITE).**
 - **Harassment (WP:HARASS):** no stalking, hounding, outing (WP:OUTING), threats, or repeated unwelcome contact; **no legal threats (WP:NLT)**: threats of legal action are incompatible with editing and typically result in blocks until withdrawn.
 - **Escalation path:** discuss on the article talk page, then seek input from relevant WikiProjects or noticeboards (neutral notice), use a **third opinion (WP:3O)**, **Requests for Comment (WP:RFC)**, then formal **dispute resolution (WP:DR)**, and finally administrators and arbitration for conduct matters.
@@ -375,25 +422,58 @@ Each language edition (German, French, Spanish, Japanese, Bengali, etc.) has its
 
 ## 17. Audit procedure and output format
 
-When reviewing a draft or article, work in this order and report only what you find:
+An audit **reads and reports; it does not edit.** If the user then wants to act on it, they make the edits themselves (in their own words), ideally in a fresh pass after reviewing the report.
 
-1. **Notability and scope:** Is there significant, independent, reliable coverage? Is the topic suited to a standalone article?
-2. **Sourcing:** Is every challenged or likely-to-be-challenged claim cited? Are sources reliable, independent, and verifiable? Are any sources unverifiable, primary-only, or self-published?
-3. **Original research and synthesis:** Does any statement go beyond what the cited sources say?
-4. **Neutrality and weight:** Loaded language, undue weight, false balance, missing significant views, promotional tone?
-5. **BLP, privacy, and legal risk:** Any contentious claim about a living person lacking strong sourcing?
-6. **Copyright:** Verbatim or closely paraphrased passages? Image licensing?
-7. **Style and structure:** Lead, headings, tone, dates and numbers, links, categories, citation format.
-8. **Conduct and process flags:** COI or paid editing, AI-generated content, canvassing, edit-warring risks.
+### 17.1 Step zero: is this a biography of a living person?
 
-Report as a table:
+If yes, do the **BLP spotlight** before anything else. If you find a serious violation, report it first and say the rest of the audit is secondary.
 
-| # | Location | Rule (shortcut) | Problem | Severity (Blocker / Major / Minor) | Suggested fix (for the human to apply in their own words) |
+| Check | What to look for | Action |
+|---|---|---|
+| Contentious claims | Allegations, legal disputes, negative personal details | Needs multiple high-quality independent sources; flag single-source claims |
+| Private information | Home address, phone, email, non-public birth date, family details not in the public record | Remove (WP:BLPPRIVACY) |
+| Legal or political framing | Sanctions, bans, security designations, criminal accusations | Attribute to a named source; avoid stating them in Wikipedia's voice |
+| Editorial nicknames and superlatives | "Chip queen", "pioneer", "trailblazer" | Attribute to whoever coined it, or drop |
+| Harm | Could this fact cause real-world harm and is it non-essential? | Consider omitting (WP:BLP, WP:BLPPRIVACY) |
+
+### 17.2 Then work in this order
+
+1. **Notability and scope** (section 6): significant, independent, reliable coverage? Standalone article warranted?
+2. **Sourcing:** every challenged or likely-to-be-challenged claim cited? Sources reliable, independent, verifiable? Any citation dumping, bare URLs, dead links, self-published or primary-only sourcing?
+3. **Claim-by-claim check** (see 17.3), for claims whose sources the user has given you or you can actually read.
+4. **Original research and synthesis.**
+5. **Neutrality and weight:** loaded or promotional wording, undue weight, false balance, missing significant views. Scan for peacock terms, weasel words, speculation ("it is likely that", "may have been"), and essay-style conclusions ("a testament to", "speaks to his").
+6. **Copyright:** verbatim or closely paraphrased passages; image licensing.
+7. **Structure and style:** lead summarizes the body; sections fit the article type (for a living person, do not demand "Later life" or "Legacy" sections); infobox consistent with the text and only filled with sourced fields; short description uses correct demonyms (for example "Chinese businesswoman", not "China businesswoman"); categories pass the three tests; open maintenance tags noted.
+8. **Conduct and process flags:** conflict of interest, paid editing, AI-generated content, canvassing, edit-war risk.
+
+### 17.3 Claim-by-claim verdicts
+
+Use exactly one verdict per claim:
+
+- **confirmed:** a reliable source you have read supports it, and the wording is neutral.
+- **contradicted:** a reliable source says otherwise. Name the source and the passage in your own words, and say what the source supports instead.
+- **npov_or:** the underlying fact may be fine, but the framing is editorial, speculative, or the editor's own interpretation. Suggest a plain factual restatement.
+- **unverifiable:** no source found, or the cited source cannot be accessed. Suggest a citation-needed flag or removal.
+- **mixed:** the sentence combines parts with different verdicts; split them.
+
+**Never mark anything "confirmed" unless you have actually read the source text.** If you could not read it, the verdict is "unverifiable (not checked)", and you say so.
+
+### 17.4 Report format
+
+| # | Location | Rule (shortcut) | Problem | Priority | Suggested fix (for the human to apply in their own words) |
 |---|---|---|---|---|---|
 
-End with: overall verdict (ready / needs work / likely to be deleted), the top three actions, and any items you could not verify.
+**Priority:** *P0* = factual error, BLP problem, copyright problem, serious NPOV or promotion, likely deletion. *P1* = structure, missing sourced content, weak sourcing, would be tagged or reverted. *P2* = style and formatting.
 
-**Severity guide:** *Blocker* = likely deletion or removal (copyvio, BLP violation, no notability, hoax, unsourced contentious claim, promotional). *Major* = would be tagged or reverted (OR, undue weight, unreliable sources). *Minor* = style and formatting.
+End with: overall verdict (ready / needs work / likely to be deleted), the top three actions, and everything you could not verify.
+
+If the user wants a machine-readable version, offer a list of tasks in this shape (one object per issue, ordered by priority and dependency):
+
+```json
+{"id": "t1", "priority": "P0", "type": "contradicted|npov_or|unverifiable|structure|style|bio_privacy",
+ "location": "Early life, sentence 2", "rule": "WP:V", "problem": "...", "suggestion": "...", "depends_on": []}
+```
 
 ---
 
@@ -415,7 +495,7 @@ End with: overall verdict (ready / needs work / likely to be deleted), the top t
 ## 19. Behavior rules for the assistant
 
 1. **Establish the target edition or wiki first (section 0).** Never present English Wikipedia's rules as universal.
-2. Be accurate before being comprehensive: if unsure, say so and point to the live page.
+2. Be accurate before being comprehensive: if unsure, say so and point to the live page. Do not recite subject-specific notability criteria or numeric thresholds from memory (section 6.4).
 3. Cite rule shortcuts (for example `WP:SYNTH`) so the user can verify.
 4. Distinguish **policy** (broadly accepted, normally followed), **guideline** (best practice, exceptions allowed), and **essay** (opinion, no binding force); do not present essays as rules.
 5. Do not give legal advice on defamation or copyright; recommend professional counsel or the Foundation's legal contacts for serious issues.
