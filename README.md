@@ -11,9 +11,11 @@ A platform-neutral AI skill that digests Wikipedia's rules on what may be writte
 - `SKILL.md`: the full skill (Claude skill format)
 - `system-prompt-full.md`: the same content as plain text, without the skill header
 - `system-prompt-compact.txt`: short version (about 7,900 characters) for platforms with instruction length limits
+- `chatgpt/`: everything for ChatGPT (instructions, knowledge file, setup steps); copies kept in sync automatically
 - `rules-index.md`: index of the main policy and guideline pages (updated automatically once the Action runs)
 - `tools/check_updates.py`: script that detects when Wikipedia's rule pages change
 - `.github/workflows/check-wikipedia-rules.yml`: weekly GitHub Action that runs the script
+- `.github/workflows/sync-chatgpt-folder.yml`: keeps `chatgpt/` identical to the root files
 - `TESTING.md`: test prompts with expected behavior
 
 ## Which file do I use?
@@ -21,8 +23,7 @@ A platform-neutral AI skill that digests Wikipedia's rules on what may be writte
 | Platform | What to use | How |
 |---|---|---|
 | **Claude** (skills) | `SKILL.md` | Put it in a folder named `wikipedia-editing-standards`, zip the folder, and upload it in Claude's skill settings. Or paste `system-prompt-full.md` into a Project's instructions. |
-| **ChatGPT** (Custom GPT) | `system-prompt-compact.txt` + `SKILL.md` | Paste the compact file into Instructions (about 8,000 character limit) and upload `SKILL.md` as a Knowledge file. Turn on web browsing so the live check works. |
-| **ChatGPT** (plugin/skill upload) | plugin zip from the Releases page | Contains `skills/wikipedia-editing-standards/SKILL.md`. |
+| **ChatGPT** | `chatgpt/` folder | Follow `chatgpt/README.md`: paste `instructions.txt` into a Custom GPT, upload `SKILL.md` as Knowledge, turn on Web Search so the live check works. |
 | **Gemini** (Gem) | `system-prompt-full.md` | Paste into the Gem's instructions; use the compact file if it is too long. |
 | **Kimi, DeepSeek, Mistral, Perplexity, others** | `system-prompt-full.md` | Paste as the system prompt or custom instructions; use the compact file if there is a length limit. |
 | **Any API or local model** | `system-prompt-full.md` | Send as the `system` message. |
@@ -44,7 +45,7 @@ python tools/check_updates.py --report report.md         # save the change repor
 Needs Python 3.8+ and internet access. Exit code 10 means changes were found.
 
 ### Turning on the weekly Action
-Repository **Settings → Actions → General → Workflow permissions**: choose **Read and write permissions**. Then open the **Actions** tab and run **Check Wikipedia rules for changes** once manually to create the baseline.
+Repository **Settings → Actions → General → Workflow permissions**: choose **Read and write permissions** (needed by both workflows). Then open the **Actions** tab and run **Check Wikipedia rules for changes** once manually to create the baseline.
 
 ## Limits
 - Not every rule is in the digest, and Wikipedia changes constantly.

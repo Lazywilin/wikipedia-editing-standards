@@ -15,6 +15,10 @@
 - Weekly GitHub Action runs the script, updates the index and opens an issue when pages changed
 - The script detects changes; it does not rewrite the skill
 
+**ChatGPT folder**
+- New `chatgpt/` folder with ready-to-paste instructions, the knowledge file, and step-by-step setup (`chatgpt/README.md`)
+- A small GitHub Action keeps the copies identical to the root `SKILL.md` and `system-prompt-compact.txt`
+
 **Other**
 - Compact prompt updated (7,948 characters) with the live-check rule
 - `TESTING.md` tests 10-12 added; README rewritten for the flat layout
