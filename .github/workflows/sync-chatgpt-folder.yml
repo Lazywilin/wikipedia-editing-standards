@@ -1,0 +1,36 @@
+name: Sync ChatGPT folder
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "SKILL.md"
+      - "system-prompt-compact.txt"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Copy root files into chatgpt/
+        run: |
+          mkdir -p chatgpt/skills/wikipedia-editing-standards
+          cp SKILL.md chatgpt/skills/wikipedia-editing-standards/SKILL.md
+          cp system-prompt-compact.txt chatgpt/instructions.txt
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add chatgpt
+          if git diff --cached --quiet; then
+            echo "chatgpt/ already in sync."
+          else
+            git commit -m "Sync chatgpt/ copies from root files"
+            git push
+          fi
