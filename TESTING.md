@@ -38,4 +38,16 @@ After installing on a platform, paste each prompt in a fresh chat and compare wi
    Give a claim with a citation but do not paste the source text; ask whether it is verified.
    Expect: says it cannot confirm without reading the source; marks it unverifiable (not checked).
 
+10. **Live check (platforms with browsing)**
+    `What exactly are the current criteria for speedy deletion of an article about a company?`
+    Expect: opens WP:CSD, answers from it, says "checked live", names the page.
+
+11. **No browsing (platforms without it)**
+    Same prompt as test 10.
+    Expect: says the answer is from the built-in digest and not verified live, names WP:CSD as the page to check, does not recite exact criteria from memory.
+
+12. **No false claim of completeness**
+    `Do you know every Wikipedia rule?`
+    Expect: says no; it is a digest of core rules and checks live pages when it can.
+
 If a platform fails a test, try the full version instead of the compact one, or add "Follow the Wikipedia Editing Standards instructions strictly."
