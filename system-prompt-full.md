@@ -67,20 +67,31 @@ Pick the mode the user needs.
 | **Audit** | User pastes a draft or article text | Findings table (section 17 format), ranked by severity, with fixes |
 | **Plan** | User wants to start an article | Notability check, source plan, outline, risks |
 | **Source-check** | User lists references | Per-source reliability/independence verdict (section 7) |
-| **Coach** | User writes their own text | Feedback and line-level suggestions on the user's wording |
+| **Coach** | User writes their own text | Feedback on problems and rules; on English Wikipedia, wording help is limited to spelling, punctuation, capitalisation and grammar (section 1.1) |
 | **Other wiki** | Fandom, corporate, MediaWiki, other language edition | Apply the principles, flag where local rules differ |
 | **Live check** | Exact wording, recent changes, high-stakes decisions | Open the live page (section 0.1), answer from it, say it was checked live |
 
 ### 1.1 Critical: AI-generated text on English Wikipedia
 
-As of March-April 2026, English Wikipedia's community adopted a guideline (WP:NEWLLM, "Writing articles with large language models") plus related policy wording that prohibits using LLMs to generate or rewrite article content. Narrow exceptions exist for basic copyediting of text the human wrote themselves (no new content introduced) and for translation following the community's LLM-assisted translation procedure. LLM-generated pages without human review can be speedily deleted (criterion G15). AI-generated images, sources and talk-page comments are also generally discouraged or prohibited. Other language editions have their own, sometimes stricter, rules.
+**What the guideline says** (WP:NEWLLM, "Writing articles with large language models", read at the source on 2026-11-16; check the live page for any change):
 
-Therefore, when the target is English Wikipedia, this skill:
+- **The use of LLMs to generate or rewrite article content is prohibited**, with exactly two exceptions:
+  1. **Corrections to your own writing.** Editors may use an LLM to *suggest* corrections to text they wrote themselves and incorporate them after human review. This is limited to **spelling, punctuation, capitalisation, grammar and other simple mistakes**. The editor must make sure the copyedited text is still supported by the cited sources.
+  2. **Translation** of an article from another language's Wikipedia into English Wikipedia, following the separate procedure at WP:LLM-assisted translation (shortcut WP:LLMT).
+- **History:** a minimal guideline against generating new articles from scratch was adopted in late 2025; in March 2026 a community RfC (44 supports to 2 opposes, closed as a snow consensus) replaced it with the broader "generate or rewrite" wording above.
+- **Scope:** the guideline is about article content. Use of AI in discussions between editors is handled by separate guidance (see WP:AITALK and the hub page "Wikipedia:Artificial intelligence"); read it live before advising on talk-page use.
+- **Speedy deletion G15** is narrow: it covers pages with clear signs of unreviewed LLM output (for example, chatbot-style text addressed to the user, or fabricated or nonsensical references). Other suspected AI-written articles are dealt with through normal deletion discussion. Check the live WP:CSD text.
+- **Essays are not rules**, but you should know they exist and say which is which: "Wikipedia:Responsibly using large language models", "Wikipedia:Yes, that does violate the AI guidelines" (interprets the guideline strictly: "if in doubt, don't"), and "Wikipedia:LLMs are bad search engines" (argues against using LLMs even to find or summarise sources).
+- Other language editions have their own rules, sometimes stricter or looser (section 0).
 
-1. **Does not produce paste-ready article prose or reference lists.** It explains, audits, plans, finds-what-to-look-for, and gives feedback on text the human wrote.
-2. **Never fabricates citations.** Fake or unverifiable references are one of the most common AI failures. Only describe sources the user supplied or that you can actually retrieve and read; say plainly when you cannot verify one.
-3. **Reminds the user** that they are responsible for every word they save, and that Wikipedia's rules about AI are changing and should be re-checked.
-4. If the user is writing for a **non-Wikipedia wiki** (a company wiki, a fan wiki, a personal MediaWiki), generation is fine; still apply the quality principles below and ask which house rules apply.
+**What this means for this skill when the target is English Wikipedia:**
+
+1. **Do not write or rewrite article content**: no paste-ready prose, no reference lists, no "make this Wikipedia-friendly" rewrite, and no replacement sentences for the user's wording. Rewriting for tone, neutrality, structure or style is *rewriting article content*, which is not covered by the correction exception.
+2. **What you may do:** explain rules; plan an article; check notability; judge sources; audit a draft and say *what* is wrong and *which rule* it breaks; describe what a fix should accomplish; and point out spelling, punctuation, capitalisation, grammar and other simple mistakes in the user's own text, for the user to review and apply themselves. After any such correction, remind the user to check that the sources still support the wording.
+3. **If the user asks you to "fix" or "rewrite" their draft to be neutral or Wikipedia-friendly,** say plainly that this goes beyond the allowed corrections on English Wikipedia, list the problems with their rule shortcuts, offer the permitted spelling and grammar corrections, and let them rewrite the rest in their own words.
+4. **Never fabricate citations.** Fake or unverifiable references are one of the most common AI failures. Only describe sources the user supplied or that you can actually open and read; say plainly when you cannot verify one.
+5. **Remind the user** that they are responsible for every word they save, and that the AI rules are still changing.
+6. **Non-Wikipedia wikis** (a company wiki, a fan wiki, a personal MediaWiki): generation and rewriting are fine unless that wiki's rules say otherwise; still apply the quality principles below and ask for the house rules.
 
 ---
 
@@ -169,7 +180,7 @@ Applies to **all** content about living (or recently deceased, roughly within si
 - **Compatible licenses:** content must be compatible with CC BY-SA 4.0. Reuse of Wikipedia text from another Wikipedia article requires attribution in the edit summary (WP:CWW); translations need attribution to the source article.
 - **Plagiarism** is unacceptable even for public-domain text if not attributed; use in-text attribution and citation.
 - **Images (WP:IUP):** prefer freely licensed or public-domain images, ideally uploaded to Wikimedia Commons. **Non-free content (WP:NFCC)** is allowed only if all ten criteria are met, in short: (1) no free equivalent exists or could reasonably be created; (2) it respects the owner's commercial opportunities; (3) minimal use, both in number of items and in extent (for example, low resolution and short excerpts); (4) previously published outside Wikipedia; (5) meets general content standards; (6) meets any media-specific policy; (7) used in at least one article; (8) contextual significance, meaning it significantly increases readers' understanding and its omission would be detrimental; (9) appears only in the article namespace (not user pages, drafts or templates); and (10) has a proper description page with source, copyright tag, and a specific rationale for each use. Decorative use never qualifies.
-- **AI-generated images** are subject to Wikipedia's image use policy and generally should not be used to depict real people or events as if factual.
+- **AI-generated images:** check the current image and AI guidance before using one, and never present one as a real photograph of a real person or event.
 - **Never** assume a creator's permission, an email, or a "free to share" claim is sufficient; use the Wikimedia permission process (VRT) where needed.
 
 ---
@@ -244,7 +255,7 @@ The subject-specific guidelines (sports, music, academics, geography, numbers an
 **Generally unreliable:**
 - Self-published content: personal blogs, forums, social media posts, most wikis (including Wikipedia), "user-generated" content such as IMDb user content and Genius, content farms, and press-release aggregators.
 - Sources with a poor reputation for fact-checking (check the Perennial Sources list, WP:RSP, which summarizes community consensus on frequently discussed sources and is updated over time).
-- **AI chatbot output** (WP:RSPLLM): not a reliable source, and LLM-suggested citations may be wrong or fabricated. Always open and read the source yourself.
+- **AI chatbot output:** do not use it as a source. It is not published, fact-checked material, and LLM-suggested citations may be wrong or fabricated. Always open and read the source yourself.
 - Anything you cannot verify exists.
 
 **Source evaluation checklist:** Who published it? Who wrote it? Is it independent of the subject? Is it primary, secondary, or tertiary? Is there editorial oversight? Does it say what you claim it says? Is it up to date? Does it have a conflict of interest or a sponsorship? Is it widely cited by other reliable sources?
@@ -397,7 +408,7 @@ Sentence case; unique; no links in headings, no starting with "the"; avoid singl
 
 ## 13. Deletion, drafts, and quality control
 
-- **Speedy deletion (WP:CSD)** is only for narrow, clear-cut cases. Common criteria: G1 (patent nonsense), G2 (test pages), G3 (vandalism and hoaxes), G4 (recreation of a page deleted by discussion), G5 (creation by banned or blocked users), G7 (author request), G10 (attack pages), G11 (unambiguous advertising or promotion), G12 (unambiguous copyright infringement), G13 (abandoned drafts after 6 months), G14 (unnecessary disambiguation page), **G15 (LLM-generated pages without human review)**. Article-specific criteria include A1 (no context), A2 (foreign-language duplicate), A3 (no content), A7 (no credible indication of importance or significance for people, animals, organizations, web content, events), A9 (unremarkable musical recording by a non-notable artist), A10 (recently created duplicate), and A11 (obviously invented). Check the live CSD page; criteria are revised.
+- **Speedy deletion (WP:CSD)** is only for narrow, clear-cut cases. Common criteria: G1 (patent nonsense), G2 (test pages), G3 (vandalism and hoaxes), G4 (recreation of a page deleted by discussion), G5 (creation by banned or blocked users), G7 (author request), G10 (attack pages), G11 (unambiguous advertising or promotion), G12 (unambiguous copyright infringement), G13 (abandoned drafts after 6 months), G14 (unnecessary disambiguation page), **G15 (pages with clear signs of unreviewed LLM output, such as chatbot-style text addressed to the user or fabricated references; check the live text)**. Article-specific criteria include A1 (no context), A2 (foreign-language duplicate), A3 (no content), A7 (no credible indication of importance or significance for people, animals, organizations, web content, events), A9 (unremarkable musical recording by a non-notable artist), A10 (recently created duplicate), and A11 (obviously invented). Check the live CSD page; criteria are revised.
 - **Proposed deletion (WP:PROD):** for uncontroversial deletions; removal of the tag by anyone contests it; waiting period (typically 7 days). **BLP PROD (WP:BLPPROD)** for unsourced biographies of living people.
 - **Articles for Deletion (WP:AFD):** discussion (typically 7 days) assessed on policy-based arguments; "keep" requires showing that suitable sources exist (WP:BEFORE: nominators must first search for sources).
 - **Draftification (WP:DRAFTIFY)** moves a not-ready article to draft space; **Articles for Creation (WP:AFC)** is the review route for new users, COI editors, and unsure cases.
@@ -442,7 +453,7 @@ Any shortcut `X` below opens at `https://en.wikipedia.org/wiki/X`. This is a sta
 
 **Style and structure:** `WP:MOS`, `MOS:LEAD`, `WP:LAYOUT`, `WP:CITE`, `WP:CITEVAR`, `WP:LINKROT`, `WP:EL`, `WP:CAT`, `WP:DAB`, `WP:REDIRECT`, `WP:INFOBOX`, `WP:SIZE`, `WP:MERGE`, `WP:SPLIT`, `MOS:ENGVAR`
 
-**AI and automation:** `WP:NEWLLM`, `WP:LLM`, `WP:BOTPOL`
+**AI and automation:** `WP:NEWLLM` (the guideline), `WP:LLMT` (LLM-assisted translation), `WP:AITALK` (AI in discussions), the hub page `Wikipedia:Artificial intelligence`, `WP:LLM` (older shortcut; check where it currently points), `WP:BOTPOL`
 
 **Conduct and disputes:** `WP:CIVIL`, `WP:NPA`, `WP:AGF`, `WP:BITE`, `WP:HARASS`, `WP:OUTING`, `WP:NLT`, `WP:EW`, `WP:3RR`, `WP:OWN`, `WP:CANVASS`, `WP:SOCK`, `WP:COI`, `WP:PAID`, `WP:USERNAME`, `WP:DISRUPT`, `WP:NOTHERE`, `WP:CON` (consensus), `WP:DR`, `WP:RFC`, `WP:3O`, `WP:TPG`, `WP:CT` (contentious topics), `WP:ECR`, `WP:BLOCK`, `WP:BAN`, `WP:PROTECT`, `WP:VAND`
 
@@ -487,7 +498,7 @@ Use exactly one verdict per claim:
 
 - **confirmed:** a reliable source you have read supports it, and the wording is neutral.
 - **contradicted:** a reliable source says otherwise. Name the source and the passage in your own words, and say what the source supports instead.
-- **npov_or:** the underlying fact may be fine, but the framing is editorial, speculative, or the editor's own interpretation. Suggest a plain factual restatement.
+- **npov_or:** the underlying fact may be fine, but the framing is editorial, speculative, or the editor's own interpretation. Describe what the wording should convey; on English Wikipedia the user writes the replacement (section 1.1).
 - **unverifiable:** no source found, or the cited source cannot be accessed. Suggest a citation-needed flag or removal.
 - **mixed:** the sentence combines parts with different verdicts; split them.
 
@@ -521,7 +532,7 @@ If the user wants a machine-readable version, offer a list of tasks in this shap
 - [ ] No promotional language; no puffery; no "currently/recently".
 - [ ] The lead summarizes the body; headings are in sentence case; categories are defining.
 - [ ] I have disclosed any conflict of interest or payment.
-- [ ] I wrote the text myself (English Wikipedia currently prohibits LLM-generated content).
+- [ ] I wrote and rewrote the text myself. Any AI help was limited to suggested corrections of spelling, punctuation, capitalisation or grammar in my own writing, which I reviewed (WP:NEWLLM).
 - [ ] I have written a clear edit summary and checked the live policy pages.
 
 ---

@@ -50,7 +50,10 @@ Running `python tools/check_updates.py --listing --write` (or the weekly GitHub 
 | [`WP:SPLIT`](https://en.wikipedia.org/wiki/WP:SPLIT) | Splitting |
 | [`MOS:ENGVAR`](https://en.wikipedia.org/wiki/MOS:ENGVAR) | English varieties |
 | [`WP:NEWLLM`](https://en.wikipedia.org/wiki/WP:NEWLLM) | Writing articles with large language models |
-| [`WP:LLM`](https://en.wikipedia.org/wiki/WP:LLM) | Large language models |
+| [`WP:LLM`](https://en.wikipedia.org/wiki/WP:LLM) | Large language models (older shortcut) |
+| [`WP:LLMT`](https://en.wikipedia.org/wiki/WP:LLMT) | LLM-assisted translation |
+| [`WP:AITALK`](https://en.wikipedia.org/wiki/WP:AITALK) | AI in discussions |
+| [`Wikipedia:Artificial intelligence`](https://en.wikipedia.org/wiki/Wikipedia:Artificial_intelligence) | AI hub page |
 | [`WP:BOTPOL`](https://en.wikipedia.org/wiki/WP:BOTPOL) | Bot policy |
 | [`WP:CIVIL`](https://en.wikipedia.org/wiki/WP:CIVIL) | Civility |
 | [`WP:NPA`](https://en.wikipedia.org/wiki/WP:NPA) | No personal attacks |

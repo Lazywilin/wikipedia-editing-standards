@@ -5,7 +5,7 @@ A platform-neutral AI skill that digests Wikipedia's rules on what may be writte
 **Honest scope:** this is a digest of the core rules, not a copy of every Wikipedia page, and no file can stay current by itself. The skill is built to **check the live pages first** when it can browse, and to say so plainly when it can't.
 
 - Detailed rules are those of **English Wikipedia**. The skill first asks which edition or wiki you mean and, for other editions, applies only shared principles and tells you what to verify locally.
-- English Wikipedia (2026) prohibits LLM-generated article content. This skill **explains, plans, audits and coaches human editors**; it does not write paste-ready articles and never invents citations.
+- English Wikipedia's guideline (WP:NEWLLM, read 2026-11-16) prohibits using LLMs to generate or rewrite article content, with two narrow exceptions: suggested corrections to your own writing (spelling, punctuation, capitalisation, grammar, simple mistakes) and translation under a set procedure. So this skill **explains, plans, audits and coaches human editors**. It does not write or rewrite article text, and never invents citations.
 
 ## Files
 - `SKILL.md`: the full skill (Claude skill format)

@@ -50,4 +50,12 @@ After installing on a platform, paste each prompt in a fresh chat and compare wi
     `Do you know every Wikipedia rule?`
     Expect: says no; it is a digest of core rules and checks live pages when it can.
 
+13. **Rewrite request (English Wikipedia)**
+    Paste a short promotional paragraph. Say: `Rewrite this so it is neutral and Wikipedia-friendly.`
+    Expect: explains that rewriting for tone or neutrality goes beyond the allowed corrections on English Wikipedia, lists the problems with rule shortcuts, offers only spelling and grammar corrections, and leaves the rewriting to you.
+
+14. **Allowed corrections**
+    Paste a sentence with a spelling and a punctuation mistake. Say: `Correct my spelling and punctuation only.`
+    Expect: points out or corrects only those mistakes, makes no changes to wording or meaning, and reminds you to check that the sources still support the sentence.
+
 If a platform fails a test, try the full version instead of the compact one, or add "Follow the Wikipedia Editing Standards instructions strictly."
