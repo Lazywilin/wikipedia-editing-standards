@@ -73,7 +73,7 @@ Pick the mode the user needs.
 
 ### 1.1 Critical: AI-generated text on English Wikipedia
 
-**What the guideline says** (WP:NEWLLM, "Writing articles with large language models", read at the source on 2026-11-16; check the live page for any change):
+**What the guideline says** (WP:NEWLLM, "Writing articles with large language models"; checked on 2026-11-16 through excerpts of the page, its RfC and the hub page, not word for word; read the live page for the exact text and any change):
 
 - **The use of LLMs to generate or rewrite article content is prohibited**, with exactly two exceptions:
   1. **Corrections to your own writing.** Editors may use an LLM to *suggest* corrections to text they wrote themselves and incorporate them after human review. This is limited to **spelling, punctuation, capitalisation, grammar and other simple mistakes**. The editor must make sure the copyedited text is still supported by the cited sources.
@@ -145,7 +145,7 @@ Principles:
 8. **Biased sources are allowed** when properly attributed and weighed; biased *editors* are the problem, not biased sources per se (WP:BIASED).
 9. **Avoid loaded or contentious labels** (WP:LABEL) such as "terrorist", "cult", "racist", "extremist", "pseudoscience" unless widely and consistently used by reliable sources; even then consider attribution.
 10. **Neutral does not mean empty.** Cover disagreements; do not delete a viewpoint because you dislike it.
-11. **Writing for the enemy** is encouraged: present opposing views in terms their best proponents would accept as accurate.
+11. **Writing for the enemy** (an essay, WP:WFTE, not policy) is a useful practice: present opposing views in terms their best proponents would accept as accurate.
 12. **Recentism (WP:RECENTISM):** do not overweight recent events at the expense of long-term perspective.
 13. **Article and section titles, image selection, and wording choices** can all introduce bias.
 14. **Neutrality is non-negotiable** and cannot be overridden by editor consensus. If it conflicts with a local preference, neutrality wins.
@@ -154,7 +154,7 @@ Principles:
 
 ## 4. Biographies of living persons (WP:BLP): strictest rules
 
-Applies to **all** content about living (or recently deceased, roughly within six months to two years, as judged by the context) people, including talk pages, user pages, and mentions in other articles.
+Applies to **all** content about living (or recently deceased; how long the protection lasts is a judgment call, so read WP:BLP for the current wording) people, including talk pages, user pages, and mentions in other articles.
 
 - **Remove immediately**, without waiting for discussion, any contentious material about a living person that is unsourced or poorly sourced. The three-revert rule does not apply to such removals (WP:3RRBLP).
 - Be **conservative**: do no harm. Err toward removal when in doubt.
@@ -222,7 +222,7 @@ A topic is generally presumed notable if it has received **significant coverage 
 
 ### 6.3 Weak versus strong arguments (useful when helping with deletion discussions)
 
-Weak: "related to someone notable" (WP:NOTINHERITED); "famous" or "important"; "other similar articles exist" (WP:OTHERSTUFFEXISTS); "has an IMDb or LinkedIn page"; "lots of search hits"; "popular online"; "well written"; "I like it"; "it has an article in another language edition"; "sources exist" without naming any (see WP:NEXIST); and, for deletion, "poorly written" (a fixable problem, not a notability one). See WP:ATA for the community's list of arguments to avoid.
+Weak: "related to someone notable" (WP:NOTINHERITED); "famous" or "important"; "other similar articles exist" (WP:OTHERSTUFFEXISTS); "has an IMDb or LinkedIn page"; "lots of search hits"; "popular online"; "well written"; "I like it"; "it has an article in another language edition"; "sources exist" without naming any (see WP:NEXIST); and, for deletion, "poorly written" (a fixable problem, not a notability one). See WP:ATA for the community's list of arguments to avoid (an essay summarising deletion-discussion practice, not a policy; the named shortcuts above are sections of it).
 
 Strong: name specific independent, reliable sources with significant coverage; show a specific criterion of the relevant subject-specific guideline; or show concretely why the available sources fail independence or significance.
 
@@ -347,7 +347,7 @@ Sentence case; unique; no links in headings, no starting with "the"; avoid singl
 - **Disambiguation (WP:DAB):** for terms with several possible topics; keep entries short with one link each; use hatnotes for two-topic cases.
 
 ### 9.10 Splitting, merging, and size
-- Consider splitting (WP:SPLIT) when readable prose is very long (guideline: over roughly 8,000 words warrants consideration; over 15,000 words strongly suggests it) and merging (WP:MERGE) when small, overlapping, or non-notable topics fit better within another article.
+- Consider splitting (WP:SPLIT) when readable prose is very long (WP:SIZE gives rough word-count thresholds; they change, so look up the current figures instead of quoting numbers) and merging (WP:MERGE) when small, overlapping, or non-notable topics fit better within another article.
 
 ---
 
@@ -357,16 +357,15 @@ Sentence case; unique; no links in headings, no starting with "the"; avoid singl
 - **Required:** direct quotes, contentious statements, statistics, and BLP material. **Do not over-cite (WP:OVERCITE)** trivial facts with many redundant references.
 - **Reference format:** be consistent. Include author, title, publisher/work, date, URL (if any), access-date for web sources, page numbers for books (WP:PAGENUMBERS), and DOI/ISBN where applicable. Use the existing citation style when editing an established article (WP:CITEVAR) and do not change it without consensus.
 - **Archived links (WP:LINKROT):** archive web citations when possible so verification survives dead links; do not delete a dead link just because it is dead.
-- **Do not cite** Wikipedia, a mirror, or social media for contentious claims; do not use "citation needed" as a license to leave claims unverified.
+- **Do not cite** Wikipedia or its mirrors at all (WP:CIRCULAR). Social media only under the self-published-source limits in section 3.1, and never for contentious claims about other people. Do not use "citation needed" as a license to leave claims unverified.
 - **Reuse a reference** by name rather than duplicating it. Use the `{{cite web}}`, `{{cite news}}`, `{{cite book}}`, and `{{cite journal}}` templates or equivalents, as the article does.
 - **Bare URLs** are discouraged; always give a descriptive citation.
 - **Quotes in citations** can be added with a quote parameter for context when helpful.
-- **Never cite a source you have not read**, and never attribute a claim to a source that does not state it (WP:SOURCETEXT, the "source-text integrity" principle).
+- **Never cite a source you have not read**, and never attribute a claim to a source that does not state it (a core requirement of WP:V and WP:NOR: the text must reflect what the source says).
 - **Foreign-language sources** are fine; give the original title and, where helpful, a translation, and use `language=` parameters.
 - **Paywalled** sources are acceptable (WP:PAYWALL); mark them and, if useful, quote a brief supporting passage.
-
 - **Check which sentences a reference really supports.** A single footnote at the end of a paragraph does not automatically support every sentence before it; flag "citation dumping" (one reference covering many distinct claims).
-- **Reuse a named reference instead of duplicating it**, and use meaningful names (not purely numeric).
+- **Give reused references meaningful names** (not purely numeric).
 - **Do not remove existing archive links** when editing a citation; add archives rather than replace them.
 - **Use the right field for the right thing:** author or `last`/`first` for people, `work` or `website` for the publication, `publisher` for the company behind it, `journal` for journals.
 - **Flag gaps honestly** with `{{citation needed}}`, `{{clarify}}` or `{{when}}` rather than quietly leaving unsupported text or inventing a source.
@@ -376,7 +375,7 @@ Sentence case; unique; no links in headings, no starting with "the"; avoid singl
 
 ## 11. Editing policy and good practice (WP:EDIT, WP:PRESERVE)
 
-- **Be bold (WP:BOLD)** but careful: improve articles directly; if reverted, discuss rather than repeat (**BRD cycle: Bold, Revert, Discuss**).
+- **Be bold (WP:BOLD)** but careful: improve articles directly; if reverted, discuss rather than repeat (the **BRD cycle: Bold, Revert, Discuss** is a widely used practice described in an essay, WP:BRD, not a rule).
 - **Preserve (WP:PRESERVE):** fix rather than delete where verifiable content can be improved; but remove unverifiable, unsourced contentious, or promotional text.
 - **Use clear edit summaries (WP:ES)** for every edit that is not trivial; mark minor edits only when truly minor (typos, formatting), never for content changes or reverts.
 - **Use the sandbox, draft space, or AfC** for new or large works. Do not publish unfinished text to mainspace if it would violate policy.
@@ -387,7 +386,7 @@ Sentence case; unique; no links in headings, no starting with "the"; avoid singl
 - **Ownership (WP:OWN):** no one owns an article; do not treat pages as personal property.
 - **Do not game the system (WP:GAME)**, make point-y edits (WP:POINT), sock-puppet (WP:SOCK), or use multiple accounts deceptively.
 - **Do not canvass (WP:CANVASS):** do not recruit like-minded editors to tilt a discussion; notices must be neutral, limited, and open.
-- **Edit warring (WP:EW):** repeatedly overriding another editor's changes is prohibited, even if you are right. **Three-revert rule (WP:3RR):** do not make more than three reverts on a single page within 24 hours (exceptions: obvious vandalism, BLP violations, copyright violations, banned users); edit-warring can occur with fewer reverts.
+- **Edit warring (WP:EW):** repeatedly overriding another editor's changes is prohibited, even if you are right. **Three-revert rule (WP:3RR):** a bright-line limit on reverts to a single page within 24 hours (exceptions exist, such as obvious vandalism, BLP violations and copyright violations; verify the exact current wording at WP:3RR); edit-warring can occur with fewer reverts.
 - **Vandalism (WP:VAND):** deliberate attempts to degrade the encyclopedia. Revert, warn, and report as appropriate; do not confuse a good-faith mistake with vandalism (assume good faith).
 - **Bots and automated tools (WP:BOT, WP:MEATBOT):** high-speed or semi-automated editing needs approval; each edit remains the editor's responsibility.
 
@@ -408,9 +407,10 @@ Sentence case; unique; no links in headings, no starting with "the"; avoid singl
 
 ## 13. Deletion, drafts, and quality control
 
-- **Speedy deletion (WP:CSD)** is only for narrow, clear-cut cases. Common criteria: G1 (patent nonsense), G2 (test pages), G3 (vandalism and hoaxes), G4 (recreation of a page deleted by discussion), G5 (creation by banned or blocked users), G7 (author request), G10 (attack pages), G11 (unambiguous advertising or promotion), G12 (unambiguous copyright infringement), G13 (abandoned drafts after 6 months), G14 (unnecessary disambiguation page), **G15 (pages with clear signs of unreviewed LLM output, such as chatbot-style text addressed to the user or fabricated references; check the live text)**. Article-specific criteria include A1 (no context), A2 (foreign-language duplicate), A3 (no content), A7 (no credible indication of importance or significance for people, animals, organizations, web content, events), A9 (unremarkable musical recording by a non-notable artist), A10 (recently created duplicate), and A11 (obviously invented). Check the live CSD page; criteria are revised.
-- **Proposed deletion (WP:PROD):** for uncontroversial deletions; removal of the tag by anyone contests it; waiting period (typically 7 days). **BLP PROD (WP:BLPPROD)** for unsourced biographies of living people.
-- **Articles for Deletion (WP:AFD):** discussion (typically 7 days) assessed on policy-based arguments; "keep" requires showing that suitable sources exist (WP:BEFORE: nominators must first search for sources).
+- **Time limits and numbers in this section are from the digest; verify them live (section 0.1).**
+- **Speedy deletion (WP:CSD)** is only for narrow, clear-cut cases. Common criteria: G1 (patent nonsense), G2 (test pages), G3 (vandalism and hoaxes), G4 (recreation of a page deleted by discussion), G5 (creation by banned or blocked users), G7 (author request), G10 (attack pages), G11 (unambiguous advertising or promotion), G12 (unambiguous copyright infringement), G13 (abandoned drafts after a set period of inactivity), G14 (unnecessary disambiguation page), **G15 (pages with clear signs of unreviewed LLM output, such as chatbot-style text addressed to the user or fabricated references; check the live text)**. Article-specific criteria include A1 (no context), A2 (foreign-language duplicate), A3 (no content), A7 (no credible indication of importance or significance for people, animals, organizations, web content, events), A9 (unremarkable musical recording by a non-notable artist), A10 (recently created duplicate), and A11 (obviously invented). Check the live CSD page; criteria are revised.
+- **Proposed deletion (WP:PROD):** for uncontroversial deletions; removal of the tag by anyone contests it; waiting period (a set number of days; check WP:PROD for the current length). **BLP PROD (WP:BLPPROD)** for unsourced biographies of living people.
+- **Articles for Deletion (WP:AFD):** discussion (open for a set period, currently about a week; verify) assessed on policy-based arguments; "keep" requires showing that suitable sources exist (WP:BEFORE: nominators must first search for sources).
 - **Draftification (WP:DRAFTIFY)** moves a not-ready article to draft space; **Articles for Creation (WP:AFC)** is the review route for new users, COI editors, and unsure cases.
 - **Cleanup tags** (for example NPOV, unreferenced, COI, notability) should be used with a clear explanation on the talk page, not as drive-by tags.
 - **Hoaxes (WP:HOAX)** are among the most serious problems: fabricated or fake-sourced content leads to deletion and sanctions.
@@ -461,7 +461,7 @@ Any shortcut `X` below opens at `https://en.wikipedia.org/wiki/X`. This is a sta
 
 **Beyond English Wikipedia:** Wikimedia Terms of Use (foundation.wikimedia.org), Universal Code of Conduct (meta.wikimedia.org), and Meta-Wiki's "Artificial intelligence/Policies by project" for other editions. Each language edition has its own rules (see section 0).
 
-If a shortcut does not open, search Wikipedia for the topic; shortcuts can be renamed or retargeted. Do not invent a shortcut.
+If a shortcut does not open, search Wikipedia for the topic; shortcuts can be renamed or retargeted. Sub-section shortcuts mentioned elsewhere in this file (for example `WP:BLPCRIME`, `WP:ABOUTSELF`) point into the parent pages and should be confirmed there. Do not invent a shortcut.
 
 ---
 

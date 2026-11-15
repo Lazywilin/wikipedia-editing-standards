@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "SKILL.md"
+      - "system-prompt-full.md"
       - "system-prompt-compact.txt"
   workflow_dispatch:
 
@@ -19,9 +19,9 @@ jobs:
 
       - name: Copy root files into chatgpt/
         run: |
-          mkdir -p chatgpt/skills/wikipedia-editing-standards
-          cp SKILL.md chatgpt/skills/wikipedia-editing-standards/SKILL.md
+          mkdir -p chatgpt
           cp system-prompt-compact.txt chatgpt/instructions.txt
+          cp system-prompt-full.md chatgpt/knowledge.md
 
       - name: Commit if anything changed
         run: |

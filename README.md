@@ -5,13 +5,13 @@ A platform-neutral AI skill that digests Wikipedia's rules on what may be writte
 **Honest scope:** this is a digest of the core rules, not a copy of every Wikipedia page, and no file can stay current by itself. The skill is built to **check the live pages first** when it can browse, and to say so plainly when it can't.
 
 - Detailed rules are those of **English Wikipedia**. The skill first asks which edition or wiki you mean and, for other editions, applies only shared principles and tells you what to verify locally.
-- English Wikipedia's guideline (WP:NEWLLM, read 2026-11-16) prohibits using LLMs to generate or rewrite article content, with two narrow exceptions: suggested corrections to your own writing (spelling, punctuation, capitalisation, grammar, simple mistakes) and translation under a set procedure. So this skill **explains, plans, audits and coaches human editors**. It does not write or rewrite article text, and never invents citations.
+- English Wikipedia's guideline (WP:NEWLLM, checked via excerpts 2026-11-16) prohibits using LLMs to generate or rewrite article content, with two narrow exceptions: suggested corrections to your own writing (spelling, punctuation, capitalisation, grammar, simple mistakes) and translation under a set procedure. So this skill **explains, plans, audits and coaches human editors**. It does not write or rewrite article text, and never invents citations.
 
 ## Files
 - `SKILL.md`: the full skill (Claude skill format)
 - `system-prompt-full.md`: the same content as plain text, without the skill header
 - `system-prompt-compact.txt`: short version (about 7,900 characters) for platforms with instruction length limits
-- `chatgpt/`: everything for ChatGPT (instructions, knowledge file, setup steps); copies kept in sync automatically
+- `chatgpt/`: everything for ChatGPT (instructions, knowledge file, setup steps); copies kept in sync automatically (they are not named `SKILL.md`, on purpose)
 - `rules-index.md`: index of the main policy and guideline pages (updated automatically once the Action runs)
 - `tools/check_updates.py`: script that detects when Wikipedia's rule pages change
 - `.github/workflows/check-wikipedia-rules.yml`: weekly GitHub Action that runs the script
@@ -22,8 +22,8 @@ A platform-neutral AI skill that digests Wikipedia's rules on what may be writte
 
 | Platform | What to use | How |
 |---|---|---|
-| **Claude** (skills) | `SKILL.md` | Put it in a folder named `wikipedia-editing-standards`, zip the folder, and upload it in Claude's skill settings. Or paste `system-prompt-full.md` into a Project's instructions. |
-| **ChatGPT** | `chatgpt/` folder | Follow `chatgpt/README.md`: paste `instructions.txt` into a Custom GPT, upload `SKILL.md` as Knowledge, turn on Web Search so the live check works. |
+| **Claude** (skills or plugins) | `SKILL.md` | **Do not upload this whole repo.** A skill must contain exactly one `SKILL.md`. For the plugin route, zip a folder containing only `skills/wikipedia-editing-standards/SKILL.md`; for the plain skill route, zip a folder `wikipedia-editing-standards/` containing only `SKILL.md`. Or paste `system-prompt-full.md` into a Project's instructions. |
+| **ChatGPT** | `chatgpt/` folder | Follow `chatgpt/README.md`: paste `instructions.txt` into a Custom GPT, upload `knowledge.md` as Knowledge, turn on Web Search so the live check works. |
 | **Gemini** (Gem) | `system-prompt-full.md` | Paste into the Gem's instructions; use the compact file if it is too long. |
 | **Kimi, DeepSeek, Mistral, Perplexity, others** | `system-prompt-full.md` | Paste as the system prompt or custom instructions; use the compact file if there is a length limit. |
 | **Any API or local model** | `system-prompt-full.md` | Send as the `system` message. |
