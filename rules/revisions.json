@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T13:41:45.519192+00:00",
+ "generated": "2026-11-23T16:01:21.555874+00:00",
  "pages": {
   "Help:Extended image syntax": {
    "requested": "Wikipedia:Extended image syntax",
@@ -23,8 +23,8 @@
   },
   "Wikipedia:Administration": {
    "requested": "Wikipedia:ADMINP",
-   "revid": 1381734089,
-   "timestamp": "2026-10-24T12:39:25Z"
+   "revid": 1386486606,
+   "timestamp": "2026-11-18T20:41:36Z"
   },
   "Wikipedia:Administrators": {
    "requested": "Wikipedia:Administrators",
@@ -33,8 +33,8 @@
   },
   "Wikipedia:Appealing a block": {
    "requested": "Wikipedia:Appealing a block",
-   "revid": 1385859725,
-   "timestamp": "2026-11-15T16:44:53Z"
+   "revid": 1386474324,
+   "timestamp": "2026-11-18T19:15:46Z"
   },
   "Wikipedia:Arbitration Committee/CheckUser and Oversight": {
    "requested": "Wikipedia:Arbitration Committee/CheckUser and Oversight",
@@ -58,8 +58,8 @@
   },
   "Wikipedia:Article titles": {
    "requested": "Wikipedia:Article titles",
-   "revid": 1385435426,
-   "timestamp": "2026-11-13T07:46:02Z"
+   "revid": 1387065551,
+   "timestamp": "2026-11-22T07:57:59Z"
   },
   "Wikipedia:Articles for creation": {
    "requested": "WP:AFC",
@@ -73,8 +73,8 @@
   },
   "Wikipedia:Artificial intelligence": {
    "requested": "Wikipedia:Artificial intelligence",
-   "revid": 1383639027,
-   "timestamp": "2026-11-03T21:40:20Z"
+   "revid": 1386051442,
+   "timestamp": "2026-11-16T16:59:24Z"
   },
   "Wikipedia:Artificial intelligence resources": {
    "requested": "Wikipedia:Artificial intelligence resources",
@@ -88,8 +88,8 @@
   },
   "Wikipedia:Assume good faith": {
    "requested": "Wikipedia:Assume good faith",
-   "revid": 1379840968,
-   "timestamp": "2026-10-12T05:44:52Z"
+   "revid": 1386708256,
+   "timestamp": "2026-11-20T02:33:08Z"
   },
   "Wikipedia:Attack page": {
    "requested": "Wikipedia:Attack page",
@@ -108,13 +108,13 @@
   },
   "Wikipedia:Be bold": {
    "requested": "Wikipedia:Be bold",
-   "revid": 1384105430,
-   "timestamp": "2026-11-06T16:39:00Z"
+   "revid": 1387062086,
+   "timestamp": "2026-11-22T06:57:42Z"
   },
   "Wikipedia:Biographies of living persons": {
    "requested": "Wikipedia:Biographies of living persons",
-   "revid": 1385586491,
-   "timestamp": "2026-11-14T02:03:23Z"
+   "revid": 1386084916,
+   "timestamp": "2026-11-16T20:57:34Z"
   },
   "Wikipedia:Blocking policy": {
    "requested": "Wikipedia:Blocking policy",
@@ -138,13 +138,13 @@
   },
   "Wikipedia:Categories, lists, and navigation templates": {
    "requested": "Wikipedia:Categories, lists, and navigation templates",
-   "revid": 1385760981,
-   "timestamp": "2026-11-15T02:43:42Z"
+   "revid": 1386686962,
+   "timestamp": "2026-11-20T00:05:50Z"
   },
   "Wikipedia:Categorization": {
    "requested": "Wikipedia:Categorization",
-   "revid": 1383607731,
-   "timestamp": "2026-11-03T17:32:18Z"
+   "revid": 1387040042,
+   "timestamp": "2026-11-22T03:40:47Z"
   },
   "Wikipedia:Categorizing articles about people": {
    "requested": "Wikipedia:Categorizing articles about people",
@@ -193,8 +193,8 @@
   },
   "Wikipedia:Community portal": {
    "requested": "Wikipedia:Community portal",
-   "revid": 1383648120,
-   "timestamp": "2026-11-03T23:00:16Z"
+   "revid": 1386941821,
+   "timestamp": "2026-11-21T16:31:31Z"
   },
   "Wikipedia:Conflict of interest": {
    "requested": "Wikipedia:Conflict of interest",
@@ -203,8 +203,8 @@
   },
   "Wikipedia:Consensus": {
    "requested": "Wikipedia:Consensus",
-   "revid": 1383449249,
-   "timestamp": "2026-11-02T19:17:38Z"
+   "revid": 1386337087,
+   "timestamp": "2026-11-18T00:40:07Z"
   },
   "Wikipedia:Content assessment": {
    "requested": "Wikipedia:Content assessment",
@@ -328,8 +328,8 @@
   },
   "Wikipedia:Copying within Wikipedia": {
    "requested": "Wikipedia:Copying within Wikipedia",
-   "revid": 1384397857,
-   "timestamp": "2026-11-08T01:49:08Z"
+   "revid": 1387181073,
+   "timestamp": "2026-11-22T22:58:45Z"
   },
   "Wikipedia:Copyright violations": {
    "requested": "Wikipedia:Copyright violations",
@@ -408,8 +408,8 @@
   },
   "Wikipedia:Do not create hoaxes": {
    "requested": "Wikipedia:Do not create hoaxes",
-   "revid": 1384400885,
-   "timestamp": "2026-11-08T02:05:18Z"
+   "revid": 1386511093,
+   "timestamp": "2026-11-18T23:20:53Z"
   },
   "Wikipedia:Do not disrupt Wikipedia to illustrate a point": {
    "requested": "Wikipedia:Do not disrupt Wikipedia to illustrate a point",
@@ -418,8 +418,8 @@
   },
   "Wikipedia:Do not include the full text of lengthy primary sources": {
    "requested": "Wikipedia:Do not include the full text of lengthy primary sources",
-   "revid": 1307663608,
-   "timestamp": "2025-08-25T00:42:07Z"
+   "revid": 1387280088,
+   "timestamp": "2026-11-23T07:33:53Z"
   },
   "Wikipedia:Drafts": {
    "requested": "WP:DRAFTIFY",
@@ -443,8 +443,8 @@
   },
   "Wikipedia:Editing policy": {
    "requested": "Wikipedia:Editing policy",
-   "revid": 1383675160,
-   "timestamp": "2026-11-04T02:45:40Z"
+   "revid": 1387034796,
+   "timestamp": "2026-11-22T02:52:36Z"
   },
   "Wikipedia:Editor's index to Wikipedia": {
    "requested": "Wikipedia:Editor's index to Wikipedia",
@@ -478,8 +478,8 @@
   },
   "Wikipedia:Featured articles": {
    "requested": "Wikipedia:Featured articles",
-   "revid": 1385738199,
-   "timestamp": "2026-11-15T00:35:17Z"
+   "revid": 1387287967,
+   "timestamp": "2026-11-23T08:15:32Z"
   },
   "Wikipedia:Featured content": {
    "requested": "Wikipedia:Featured content",
@@ -488,18 +488,18 @@
   },
   "Wikipedia:Featured lists": {
    "requested": "Wikipedia:Featured lists",
-   "revid": 1386026592,
-   "timestamp": "2026-11-16T13:17:35Z"
+   "revid": 1387337509,
+   "timestamp": "2026-11-23T13:43:53Z"
   },
   "Wikipedia:Featured pictures": {
    "requested": "Wikipedia:Featured pictures",
-   "revid": 1385830879,
-   "timestamp": "2026-11-15T11:48:08Z"
+   "revid": 1387315093,
+   "timestamp": "2026-11-23T10:54:25Z"
   },
   "Wikipedia:Featured topics": {
    "requested": "Wikipedia:Featured topics",
-   "revid": 1374512178,
-   "timestamp": "2026-09-12T14:42:54Z"
+   "revid": 1386290309,
+   "timestamp": "2026-11-17T19:19:47Z"
   },
   "Wikipedia:File names": {
    "requested": "Wikipedia:File names",
@@ -543,8 +543,8 @@
   },
   "Wikipedia:Harassment": {
    "requested": "Wikipedia:Harassment",
-   "revid": 1383630464,
-   "timestamp": "2026-11-03T20:24:40Z"
+   "revid": 1386049509,
+   "timestamp": "2026-11-16T16:41:51Z"
   },
   "Wikipedia:Hatnote": {
    "requested": "Wikipedia:Hatnote",
@@ -563,8 +563,8 @@
   },
   "Wikipedia:IP block exemption": {
    "requested": "Wikipedia:IP block exemption",
-   "revid": 1375847997,
-   "timestamp": "2026-09-20T13:02:50Z"
+   "revid": 1386610898,
+   "timestamp": "2026-11-19T13:20:41Z"
   },
   "Wikipedia:IRC": {
    "requested": "Wikipedia:IRC",
@@ -573,13 +573,13 @@
   },
   "Wikipedia:Identifying reliable sources (medicine)": {
    "requested": "Wikipedia:Identifying reliable sources (medicine)",
-   "revid": 1384981290,
-   "timestamp": "2026-11-11T05:25:06Z"
+   "revid": 1386537112,
+   "timestamp": "2026-11-19T02:09:52Z"
   },
   "Wikipedia:Ignore all rules": {
    "requested": "Wikipedia:Ignore all rules",
-   "revid": 1383583105,
-   "timestamp": "2026-11-03T14:09:25Z"
+   "revid": 1387107891,
+   "timestamp": "2026-11-22T15:56:22Z"
   },
   "Wikipedia:Image use policy": {
    "requested": "Wikipedia:Image use policy",
@@ -588,8 +588,8 @@
   },
   "Wikipedia:In the news/Recurring items": {
    "requested": "Wikipedia:In the news/Recurring items",
-   "revid": 1383749089,
-   "timestamp": "2026-11-04T16:26:26Z"
+   "revid": 1387034158,
+   "timestamp": "2026-11-22T02:44:18Z"
   },
   "Wikipedia:Indic transliteration": {
    "requested": "Wikipedia:Indic transliteration",
@@ -638,8 +638,8 @@
   },
   "Wikipedia:Maintenance": {
    "requested": "Wikipedia:Maintenance",
-   "revid": 1385649625,
-   "timestamp": "2026-11-14T13:48:37Z"
+   "revid": 1386926736,
+   "timestamp": "2026-11-21T13:49:11Z"
   },
   "Wikipedia:Make technical articles understandable": {
    "requested": "Wikipedia:Make technical articles understandable",
@@ -648,13 +648,13 @@
   },
   "Wikipedia:Manual of Style": {
    "requested": "Wikipedia:Manual of Style",
-   "revid": 1385963368,
-   "timestamp": "2026-11-16T04:13:32Z"
+   "revid": 1386956686,
+   "timestamp": "2026-11-21T18:14:16Z"
   },
   "Wikipedia:Manual of Style/Abbreviations": {
    "requested": "Wikipedia:Manual of Style/Abbreviations",
-   "revid": 1380495482,
-   "timestamp": "2026-10-16T02:03:38Z"
+   "revid": 1386834677,
+   "timestamp": "2026-11-20T22:19:17Z"
   },
   "Wikipedia:Manual of Style/Accessibility": {
    "requested": "Wikipedia:Manual of Style/Accessibility",
@@ -668,8 +668,8 @@
   },
   "Wikipedia:Manual of Style/Biography": {
    "requested": "Wikipedia:Manual of Style/Biography",
-   "revid": 1385738736,
-   "timestamp": "2026-11-15T00:38:03Z"
+   "revid": 1387240850,
+   "timestamp": "2026-11-23T03:25:32Z"
   },
   "Wikipedia:Manual of Style/Blazon": {
    "requested": "Wikipedia:Manual of Style/Blazon",
@@ -698,13 +698,13 @@
   },
   "Wikipedia:Manual of Style/China- and Chinese-related articles": {
    "requested": "Wikipedia:Manual of Style/China- and Chinese-related articles",
-   "revid": 1382944738,
-   "timestamp": "2026-10-31T03:25:07Z"
+   "revid": 1387019146,
+   "timestamp": "2026-11-22T01:10:42Z"
   },
   "Wikipedia:Manual of Style/Comics": {
    "requested": "Wikipedia:Manual of Style/Comics",
-   "revid": 1380284434,
-   "timestamp": "2026-10-14T21:24:19Z"
+   "revid": 1386203964,
+   "timestamp": "2026-11-17T06:49:26Z"
   },
   "Wikipedia:Manual of Style/Computer science": {
    "requested": "Wikipedia:Manual of Style/Computer science",
@@ -723,18 +723,18 @@
   },
   "Wikipedia:Manual of Style/Dates and numbers": {
    "requested": "Wikipedia:Manual of Style/Dates and numbers",
-   "revid": 1383699243,
-   "timestamp": "2026-11-04T06:29:43Z"
+   "revid": 1386457647,
+   "timestamp": "2026-11-18T17:29:22Z"
   },
   "Wikipedia:Manual of Style/Disambiguation pages": {
    "requested": "Wikipedia:Manual of Style/Disambiguation pages",
-   "revid": 1384746543,
-   "timestamp": "2026-11-09T22:47:17Z"
+   "revid": 1386684842,
+   "timestamp": "2026-11-19T23:50:33Z"
   },
   "Wikipedia:Manual of Style/Film": {
    "requested": "Wikipedia:Manual of Style/Film",
-   "revid": 1382083129,
-   "timestamp": "2026-10-26T14:11:53Z"
+   "revid": 1387086544,
+   "timestamp": "2026-11-22T12:04:04Z"
   },
   "Wikipedia:Manual of Style/France- and French-related articles": {
    "requested": "Wikipedia:Manual of Style/France- and French-related articles",
@@ -753,8 +753,8 @@
   },
   "Wikipedia:Manual of Style/Images": {
    "requested": "Wikipedia:Manual of Style/Images",
-   "revid": 1383948573,
-   "timestamp": "2026-11-05T19:41:07Z"
+   "revid": 1386236535,
+   "timestamp": "2026-11-17T11:50:56Z"
   },
   "Wikipedia:Manual of Style/India-related articles": {
    "requested": "Wikipedia:Manual of Style/India-related articles",
@@ -798,8 +798,8 @@
   },
   "Wikipedia:Manual of Style/Lead section": {
    "requested": "Wikipedia:Manual of Style/Lead section",
-   "revid": 1384640263,
-   "timestamp": "2026-11-09T08:02:57Z"
+   "revid": 1386929434,
+   "timestamp": "2026-11-21T14:21:24Z"
   },
   "Wikipedia:Manual of Style/Legal": {
    "requested": "Wikipedia:Manual of Style/Legal",
@@ -818,8 +818,8 @@
   },
   "Wikipedia:Manual of Style/Lists of works": {
    "requested": "Wikipedia:Manual of Style/Lists of works",
-   "revid": 1379135178,
-   "timestamp": "2026-10-08T04:15:47Z"
+   "revid": 1386433803,
+   "timestamp": "2026-11-18T14:31:47Z"
   },
   "Wikipedia:Manual of Style/Mathematics": {
    "requested": "Wikipedia:Manual of Style/Mathematics",
@@ -863,8 +863,8 @@
   },
   "Wikipedia:Manual of Style/Pronunciation": {
    "requested": "Wikipedia:Manual of Style/Pronunciation",
-   "revid": 1382181675,
-   "timestamp": "2026-10-27T03:20:47Z"
+   "revid": 1386642534,
+   "timestamp": "2026-11-19T17:50:28Z"
   },
   "Wikipedia:Manual of Style/Record charts": {
    "requested": "Wikipedia:Manual of Style/Record charts",
@@ -883,8 +883,8 @@
   },
   "Wikipedia:Manual of Style/Self-references to avoid": {
    "requested": "Wikipedia:Manual of Style/Self-references to avoid",
-   "revid": 1381189760,
-   "timestamp": "2026-10-20T15:38:26Z"
+   "revid": 1386609675,
+   "timestamp": "2026-11-19T13:07:52Z"
   },
   "Wikipedia:Manual of Style/Singapore-related articles": {
    "requested": "Wikipedia:Manual of Style/Singapore-related articles",
@@ -948,8 +948,8 @@
   },
   "Wikipedia:Manual of Style/Words to watch": {
    "requested": "Wikipedia:Manual of Style/Words to watch",
-   "revid": 1382059772,
-   "timestamp": "2026-10-26T09:37:47Z"
+   "revid": 1386322339,
+   "timestamp": "2026-11-17T22:47:26Z"
   },
   "Wikipedia:Manual of Style/Writing about fiction": {
    "requested": "Wikipedia:Manual of Style/Writing about fiction",
@@ -968,8 +968,8 @@
   },
   "Wikipedia:Merging": {
    "requested": "WP:MERGE",
-   "revid": 1385976115,
-   "timestamp": "2026-11-16T05:47:22Z"
+   "revid": 1386728829,
+   "timestamp": "2026-11-20T05:52:18Z"
   },
   "Wikipedia:Naming conventions (Australian roads)": {
    "requested": "Wikipedia:Naming conventions (Australian roads)",
@@ -988,8 +988,8 @@
   },
   "Wikipedia:Naming conventions (Chinese)": {
    "requested": "Wikipedia:Naming conventions (Chinese)",
-   "revid": 1363346131,
-   "timestamp": "2026-07-09T17:00:26Z"
+   "revid": 1387159179,
+   "timestamp": "2026-11-22T20:53:49Z"
   },
   "Wikipedia:Naming conventions (Greek)": {
    "requested": "Wikipedia:Naming conventions (Greek)",
@@ -1228,8 +1228,8 @@
   },
   "Wikipedia:Naming conventions (technical restrictions)": {
    "requested": "Wikipedia:Naming conventions (technical restrictions)",
-   "revid": 1384855933,
-   "timestamp": "2026-11-10T11:49:51Z"
+   "revid": 1386658238,
+   "timestamp": "2026-11-19T19:56:52Z"
   },
   "Wikipedia:Naming conventions (television)": {
    "requested": "Wikipedia:Naming conventions (television)",
@@ -1253,13 +1253,13 @@
   },
   "Wikipedia:Neutral point of view": {
    "requested": "Wikipedia:Neutral point of view",
-   "revid": 1385644436,
-   "timestamp": "2026-11-14T12:51:03Z"
+   "revid": 1386821137,
+   "timestamp": "2026-11-20T20:29:20Z"
   },
   "Wikipedia:No disclaimers": {
    "requested": "Wikipedia:No disclaimers",
-   "revid": 1384348606,
-   "timestamp": "2026-11-07T21:08:06Z"
+   "revid": 1387056355,
+   "timestamp": "2026-11-22T05:55:33Z"
   },
   "Wikipedia:No legal threats": {
    "requested": "Wikipedia:No legal threats",
@@ -1268,8 +1268,8 @@
   },
   "Wikipedia:No original research": {
    "requested": "Wikipedia:No original research",
-   "revid": 1382461434,
-   "timestamp": "2026-10-28T20:46:32Z"
+   "revid": 1387229518,
+   "timestamp": "2026-11-23T02:35:16Z"
   },
   "Wikipedia:No personal attacks": {
    "requested": "Wikipedia:No personal attacks",
@@ -1298,8 +1298,8 @@
   },
   "Wikipedia:Notability": {
    "requested": "Wikipedia:Notability",
-   "revid": 1384588853,
-   "timestamp": "2026-11-09T00:56:34Z"
+   "revid": 1387241446,
+   "timestamp": "2026-11-23T03:28:30Z"
   },
   "Wikipedia:Notability (academics)": {
    "requested": "Wikipedia:Notability (academics)",
@@ -1388,13 +1388,13 @@
   },
   "Wikipedia:Oversight": {
    "requested": "Wikipedia:Oversight",
-   "revid": 1383052108,
-   "timestamp": "2026-10-31T18:58:55Z"
+   "revid": 1386043447,
+   "timestamp": "2026-11-16T15:53:48Z"
   },
   "Wikipedia:Ownership of content": {
    "requested": "Wikipedia:Ownership of content",
-   "revid": 1379608684,
-   "timestamp": "2026-10-10T23:36:48Z"
+   "revid": 1386489318,
+   "timestamp": "2026-11-18T21:05:40Z"
   },
   "Wikipedia:Page blanking": {
    "requested": "Wikipedia:Page blanking",
@@ -1413,8 +1413,8 @@
   },
   "Wikipedia:Patent nonsense": {
    "requested": "Wikipedia:Patent nonsense",
-   "revid": 1367269656,
-   "timestamp": "2026-08-02T02:07:19Z"
+   "revid": 1386692198,
+   "timestamp": "2026-11-20T00:42:29Z"
   },
   "Wikipedia:People by year": {
    "requested": "Wikipedia:People by year",
@@ -1428,13 +1428,13 @@
   },
   "Wikipedia:Please do not bite the newcomers": {
    "requested": "Wikipedia:Please do not bite the newcomers",
-   "revid": 1385638055,
-   "timestamp": "2026-11-14T11:30:19Z"
+   "revid": 1386763396,
+   "timestamp": "2026-11-20T12:08:36Z"
   },
   "Wikipedia:Policies and guidelines": {
    "requested": "Wikipedia:Policies and guidelines",
-   "revid": 1384104279,
-   "timestamp": "2026-11-06T16:31:36Z"
+   "revid": 1386555012,
+   "timestamp": "2026-11-19T03:58:17Z"
   },
   "Wikipedia:Preparing images for upload": {
    "requested": "Wikipedia:Preparing images for upload",
@@ -1468,8 +1468,8 @@
   },
   "Wikipedia:Protection policy": {
    "requested": "Wikipedia:Protection policy",
-   "revid": 1386006150,
-   "timestamp": "2026-11-16T09:58:39Z"
+   "revid": 1386168683,
+   "timestamp": "2026-11-17T02:11:25Z"
   },
   "Wikipedia:Public domain": {
    "requested": "Wikipedia:Public domain",
@@ -1518,8 +1518,8 @@
   },
   "Wikipedia:Reliable sources/Perennial sources": {
    "requested": "WP:RSP",
-   "revid": 1385494674,
-   "timestamp": "2026-11-13T15:33:18Z"
+   "revid": 1386808349,
+   "timestamp": "2026-11-20T18:58:17Z"
   },
   "Wikipedia:Request directory": {
    "requested": "Wikipedia:Request directory",
@@ -1528,13 +1528,13 @@
   },
   "Wikipedia:Requests for comment": {
    "requested": "WP:RFC",
-   "revid": 1383481577,
-   "timestamp": "2026-11-02T22:36:41Z"
+   "revid": 1386292353,
+   "timestamp": "2026-11-17T19:33:54Z"
   },
   "Wikipedia:Responding to threats of harm": {
    "requested": "Wikipedia:Responding to threats of harm",
-   "revid": 1379622176,
-   "timestamp": "2026-10-11T01:01:14Z"
+   "revid": 1387251152,
+   "timestamp": "2026-11-23T04:27:32Z"
   },
   "Wikipedia:Reusing Wikipedia content": {
    "requested": "Wikipedia:Reusing Wikipedia content",
@@ -1618,8 +1618,8 @@
   },
   "Wikipedia:Speedy keep": {
    "requested": "Wikipedia:Speedy keep",
-   "revid": 1381236781,
-   "timestamp": "2026-10-20T22:11:36Z"
+   "revid": 1386409057,
+   "timestamp": "2026-11-18T10:42:10Z"
   },
   "Wikipedia:Spellchecking": {
    "requested": "Wikipedia:Spellchecking",
@@ -1638,13 +1638,13 @@
   },
   "Wikipedia:Spoken articles": {
    "requested": "Wikipedia:Spoken articles",
-   "revid": 1385937942,
-   "timestamp": "2026-11-16T01:17:25Z"
+   "revid": 1386953890,
+   "timestamp": "2026-11-21T17:55:18Z"
   },
   "Wikipedia:Stand-alone lists": {
    "requested": "Wikipedia:Stand-alone lists",
-   "revid": 1383609762,
-   "timestamp": "2026-11-03T17:47:56Z"
+   "revid": 1386865422,
+   "timestamp": "2026-11-21T02:46:21Z"
   },
   "Wikipedia:Stub": {
    "requested": "Wikipedia:Stub",
@@ -1673,8 +1673,8 @@
   },
   "Wikipedia:Talk page guidelines": {
    "requested": "Wikipedia:Talk page guidelines",
-   "revid": 1385538243,
-   "timestamp": "2026-11-13T20:50:09Z"
+   "revid": 1387352891,
+   "timestamp": "2026-11-23T15:35:54Z"
   },
   "Wikipedia:Talk page templates": {
    "requested": "Wikipedia:Talk page templates",
@@ -1713,8 +1713,8 @@
   },
   "Wikipedia:Third opinion": {
    "requested": "WP:3O",
-   "revid": 1385844821,
-   "timestamp": "2026-11-15T14:36:33Z"
+   "revid": 1387076743,
+   "timestamp": "2026-11-22T10:07:47Z"
   },
   "Wikipedia:Tips": {
    "requested": "Wikipedia:Tips",
@@ -1738,13 +1738,13 @@
   },
   "Wikipedia:User pages": {
    "requested": "Wikipedia:User pages",
-   "revid": 1384020130,
-   "timestamp": "2026-11-06T04:49:25Z"
+   "revid": 1386932536,
+   "timestamp": "2026-11-21T14:55:50Z"
   },
   "Wikipedia:Userboxes": {
    "requested": "Wikipedia:Userboxes",
-   "revid": 1379693841,
-   "timestamp": "2026-10-11T10:55:22Z"
+   "revid": 1386675383,
+   "timestamp": "2026-11-19T22:21:43Z"
   },
   "Wikipedia:Username policy": {
    "requested": "Wikipedia:Username policy",
@@ -1758,8 +1758,8 @@
   },
   "Wikipedia:Verifiability": {
    "requested": "Wikipedia:Verifiability",
-   "revid": 1386008258,
-   "timestamp": "2026-11-16T10:20:50Z"
+   "revid": 1387100313,
+   "timestamp": "2026-11-22T14:44:06Z"
   },
   "Wikipedia:Volunteer Response Team": {
    "requested": "Wikipedia:Volunteer Response Team",
@@ -1768,8 +1768,8 @@
   },
   "Wikipedia:What Wikipedia is not": {
    "requested": "Wikipedia:What Wikipedia is not",
-   "revid": 1384117154,
-   "timestamp": "2026-11-06T18:01:11Z"
+   "revid": 1387147023,
+   "timestamp": "2026-11-22T19:53:12Z"
   },
   "Wikipedia:WikiProject Belgium/Alternate language names": {
    "requested": "Wikipedia:WikiProject Belgium/Alternate language names",
@@ -1788,13 +1788,13 @@
   },
   "Wikipedia:WikiProject Council/Directory": {
    "requested": "Wikipedia:WikiProject Council/Directory",
-   "revid": 1377679157,
-   "timestamp": "2026-09-30T14:42:31Z"
+   "revid": 1387028327,
+   "timestamp": "2026-11-22T02:03:19Z"
   },
   "Wikipedia:WikiProject Council/Guide": {
    "requested": "Wikipedia:WikiProject Council/Guide",
-   "revid": 1382079255,
-   "timestamp": "2026-10-26T13:34:31Z"
+   "revid": 1387189965,
+   "timestamp": "2026-11-22T23:45:59Z"
   },
   "Wikipedia:WikiProject Ireland/Ireland Category Norms": {
    "requested": "Wikipedia:WikiProject Ireland/Ireland Category Norms",
@@ -1818,8 +1818,8 @@
   },
   "Wikipedia:Wikimedia sister projects": {
    "requested": "Wikipedia:Wikimedia sister projects",
-   "revid": 1379707903,
-   "timestamp": "2026-10-11T13:28:53Z"
+   "revid": 1387202542,
+   "timestamp": "2026-11-23T00:49:38Z"
   },
   "Wikipedia:Wikipedia abbreviations": {
    "requested": "Wikipedia:Wikipedia abbreviations",
@@ -1838,8 +1838,8 @@
   },
   "Wikipedia:Writing articles with large language models": {
    "requested": "Wikipedia:Writing articles with large language models",
-   "revid": 1385905495,
-   "timestamp": "2026-11-15T22:18:01Z"
+   "revid": 1386476078,
+   "timestamp": "2026-11-18T19:25:30Z"
   }
  }
 }
